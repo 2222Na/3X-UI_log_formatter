@@ -9,10 +9,13 @@ Just put it in directory with .log file and start command "python3 log_formatter
 • Delete www.google.com and ports(because of flood and spam)
 • Add beautiful brackets (because I want)
 # Example:
+From:
 
 2024/12/07 17:00:00 from {ip:port} accepted tcp:www.google.com:443 [inbound-443 >> direct] email: 2222Na
+
 2024/12/07 17:00:00 from {ip:port} accepted tcp:github.com:443 [inbound-443 >> direct] email: 2222Na
-↓↓↓
+
+To:
 [2024/12/07 | 17:00:00] 2222Na: {ip} → github.com
 
 
