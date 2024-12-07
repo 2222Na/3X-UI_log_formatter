@@ -1,6 +1,6 @@
 # 3X-UI_log_formatter
 Script from ChatGPT that makes your log file clear.
-Just put it in directory with .log file and start command "python3 log_formatter.py".
+Just put it in directory with .log file, install watchdog library via pip and start command "python3 log_formatter.py".
 
 # What it does:
 • Reverse logs from up to bottom(the fresher, the higher)
